@@ -1,0 +1,68 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'BioRhyme', serif;
+  padding: 0;
+  margin: 0;
+  background: url(../img/henrique-felix-113543.jpg) no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+#photo-credit {
+  margin-top: 100%;
+  font-size: 0.8rem;
+}
+
+header {
+  color: rgba(218, 63, 63, 0.72);
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 3px 4px 6px #070608, -5px -1px 6px #e09898;
+}
+
+
+:root {
+  --base: #BADA55;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+#js30 {
+  color: var(--base);
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+
+}
+
+label {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.72);
+  text-shadow: 3px 4px 6px #070608, -5px -1px 6px #e09898;
+}
+
+img {
+  margin: 20px;
+  max-width: 50%;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
